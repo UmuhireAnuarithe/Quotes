@@ -1,4 +1,4 @@
-<h1 style="color: coral">Publish New Quote</h1>
+<h1 style="color: coral">Publish Your Quote</h1>
 <div class="container-fluid">
   <div class="row">
       <form id="form"(ngSubmit)='submitQuote()' #quoteForm='ngForm'>
@@ -6,37 +6,38 @@
           <div class="form-group">
             <label for="title">Title</label>
               <input type="text"  class="form-control" id="title" [(ngModel)]="newQuote.title" name="title" #title="ngModel" required >
-              <!-- <div [hidden]="title.valid || title.Pristine" class="alert alert-danger">
+               <div [hidden]="title.valid || title.Pristine" class="alert alert-danger">
                   <p> Title is Required</p>    
-              </div>  -->
+              </div>  
           </div> 
 
 
           <div class="form-group">
               <label for="author">Author </label>
                 <input type="text"  class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author="ngModel"  required >
-               
-             <!-- <div [hidden]="author.valid || author.Pristine" class="alert alert-danger">
+              
+             <div [hidden]="author.valid || author.Pristine" class="alert alert-danger">
             <p>Author nare is required</p>
-            </div> -->
-        </div>
+            </div> 
+        </div> 
          
           <div class="form-group">
 
               <label for="quote">Quote</label>
               <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.quote" name="quote"   #quote="ngModel" required></textarea>
-              <!-- <div [hidden]="quote.valid || quote.Pristine" class="alert alert-danger">
+               <div [hidden]="quote.valid || quote.Pristine" class="alert alert-danger">
             <p>Quote nare is required</p>
-            </div> -->
+            </div> 
         </div>
           
           <div class="form-group">
 
             <label for="user">User</label>
             <input type="text"  class="form-control" id="user" [(ngModel)]="newQuote.user" name="user" #user="ngModel" required >
-            <!-- <div [hidden]="user.valid || user.Pristine" class="alert alert-danger">
+             
+             <div [hidden]="user.valid || user.Pristine" class="alert alert-danger">
             <p>User name nare is required</p>
-            </div> -->
+            </div>  
         </div>
             
           
