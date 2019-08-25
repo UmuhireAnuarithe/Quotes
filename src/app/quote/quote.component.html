@@ -1,0 +1,24 @@
+<!-- <p>quote works!</p> -->
+
+
+<div class="container">
+    <h1>  Quotes for women!</h1>
+    <div class="row">
+      <div class=col-md-6 >
+        <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+      </div>
+  
+         
+      <div class=col-md-6>
+          <ol>
+          <h2>View Quotes now!!!!</h2>                   
+          <div *ngFor="let quote of Quote;let i = 'index'" class="list">
+            <li id="{{i}}" class="num">{{quote.title}}        
+              <button (click)='toogleDetails(i)' class="btn btn-info btn-md" id="detail">Details</button>
+            </li>    
+            <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>
+          </div>
+        </ol>
+      </div>
+    </div>
+  </div>
