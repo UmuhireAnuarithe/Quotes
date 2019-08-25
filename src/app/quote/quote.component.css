@@ -30,3 +30,8 @@ ol{
 footer{
     background-size: cover;
 }
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
