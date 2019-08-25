@@ -1,0 +1,11 @@
+P{
+    font-size: 20px;
+    font-family: Helvetica;
+}
+body{
+    background-color: goldenrod;
+}
+p{
+    font-style: italic;
+    color :rgb((67, 114, 24)255, 234, 234);
+}

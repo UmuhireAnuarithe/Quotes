@@ -1,0 +1,23 @@
+<!-- <p>quote-datails works!</p> -->
+
+<p>Inspiration and motivation  Quotes for women!
+</p>
+
+<p>Quote:{{quote.quote}}</p>
+
+ 
+
+
+<p>Author: {{quote.author}}</p>
+
+<p>Date: {{quote.completeDate|date|uppercase}}</p>
+<p>upvote :{{quote.upvote}}</p>
+<p>Downvote :{{quote.downvote}}</p>
+<p>Submitted by:{{quote.user}}</p>
+
+<div id="btnUp">
+    <button (click)='upvote()' class="btn btn-success">Upvote</button>
+    <button (click)='downvote()' class="btn btn-warning" id="dwnVote">Downvote</button>
+   <button (click)= 'quoteComplete(true)' class=" btn btn-danger " id="delete">Delete</button>
+</div>
+<p id="subdate"> posted: {{quote.completeDate|dateCount}}  days</p>
