@@ -3,3 +3,7 @@
 body{
     background-color: blue;
 }
+label{
+    color: blue;
+    font-size: 23px;
+}

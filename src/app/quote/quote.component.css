@@ -19,3 +19,14 @@ ol{
     margin-left:15%;
 
 }
+.list{
+
+    display: flex;
+    flex-direction: column;
+}
+.num{
+    font-size: 25px;
+}
+footer{
+    background-size: cover;
+}
