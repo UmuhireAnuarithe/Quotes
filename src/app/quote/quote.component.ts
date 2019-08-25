@@ -13,7 +13,7 @@ import {Quote} from '../quote';
       new Quote('Motivation Quote', 'Kofi Mwema','Never giveup ,', 'Umuhire',new Date(1993,8,4),0,0 ),
       new Quote ( 'Courageous Quotes', 'Anne','Try and fail but never fail to try', 'Claire', new Date(2015,9,4),0,0 ),
       new Quote( 'Passion Quotes', 'Anuarithe','Allow your passion to be yuor purpose , one day it will become your proffesion.', 'Mponoyimana',new Date(2018,8,24),0,0),
-      new Quote('Success Quotes', 'Alfred','Work hard and smart success will came into your ways','Clemantine' ,new Date(1956,6,14),0,0 ),
+      new Quote('Success Quotes', 'Jackson Grande','Work hard and smart success will came into your ways','Clemantine' ,new Date(1956,6,14),0,0 ),
       new Quote( 'Quote about believe','lilianne','“Love what you do and do what you love. " ', 'Clarisse', new Date(2017,9,14) ,0,0),
       new Quote( 'Quote about love','lilianne','First Love never die. " ', 'Clarisse', new Date(2017,9,14) ,0,0),
   ]
